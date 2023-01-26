@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(159, 177, 192);
+    width: 1200px;
+    margin: 0 auto;  
+    background-image:url(../assets/fon/ava7patterns_pattern_1904.png) ; 
+}
+
+aside{ 
+    height: 1800px;
+    width: 320px;
+    background-color: white;
+    float: right;
+    text-align: center;
+    margin: 20px auto; 
+    border: 4px dashed;
+}
+
+article{
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    float: left;
+    margin: 20px auto;
+    border: 4px dashed;
+}
+
+
+
+header{
+    background-color: white;
+    text-align: center;
+    margin: 10px auto;
+    border: 5px dashed;
+}
+
+.reference{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+li{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#taras  {
+    line-height: 6px;
+    all:initial;    
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+
+footer{
+   clear: both; 
+   border: 4px dashed;
+   text-align: center;
+   background-color: white;
+
+}
+
+iframe{
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#resume{
+    background-color: white;
+    margin: 20px auto;
+    text-align: center;
+    border: 4px dashed;
+}
+
