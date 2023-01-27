@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    border: 4px dashed;
+    background-color: rgb(141, 159, 182);
+}
+
+
+form{
+  line-height: 45px;
+ }
+
+ form label{
+   text-align: right;
+ }
+
+ form input{
+   float: right;
+   margin-top: 10px;
+ }
+
+ form input[type=radio]{
+   float: none;
+ }
+
+ form input[type=checkbox]{
+   float: none;
+ }
+
+ form select{
+   float: right;
+   margin-top: 10px;
+ }
+
+ form textarea{
+   float: right;
+ }
+
+ 
+fieldset{
+   background-color: rgb(188, 203, 221);
+   width: 400px;
+   margin: 10px auto;
+}
+
+button{
+   margin: 0 15px;
+}
+
+textarea{
+   width: 230px;
+   height: 30px;
+}

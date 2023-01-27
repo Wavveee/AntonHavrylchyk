@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/AntonHavrylchyk/lesson4/style/style.css">
+</head> 
+<body>
+    <header>
+        <h1> Реєстрація </h1>
+    </header>
+
+
+    <form action="URL" target="_blank">
+       <fieldset>
+         <legend > <h2>Форма для заповнення данних </h2> </legend>
+
+            <label for="fullName"> Повне ім'я</label>
+                <input type="text" id="fullName" name="fullName"><br>
+
+            <label for="email"> Email</label>
+                <input type="text" id="emaill" name="emaill"><br>
+
+            <label for="password"> Пароль</label>
+                <input type="password" id="password" name="password"><br>
+
+            <label for="passwordRepeat"> Повтори пароль</label>
+                <input type="password" id="passwordRepeat" name="passwordRepeat"><br>
+
+            
+            <label for="sex"> Стать:     </label>
+        
+                <label>
+                    <input type="radio" name="sex" value="male"> Чоловік
+                </label>
+
+                <label>
+                    <input type="radio" name="sex" value="female"> Жінка
+                </label>
+
+                <label>
+                    <input type="radio" name="sex" value="other" checked > Інше
+                </label><br>
+             
+            
+            <label for="age"> Скільки ти уже нажив(ла/ло)?</label> 
+                <input type="text" id="age" name="age"><br>
+
+            <label for="course"> Курс </label> 
+                <select id="course" name="cource">
+                    <option value="course"> Front-End </option>
+                    <option value="course"> Back-End </option>
+                    <option value="course"> Project Management </option>
+                    <option value="course"> QA Manual </option>
+                    <option value="course" selected> Я не знаю, що тут роблю</option>
+                </select><br>
+             
+            <label for="adress"> Повна адреса</label>
+                <textarea id="adress" name="adress">Де ти є?</textarea><br>
+            
+            <label for="aboutMyself"> Детальніше про себе</label>
+                <textarea id="aboutMyself" name="aboutMyself"> Хто ти воїн?</textarea><br>
+
+            <label>
+                <input type="checkbox" name="dataProcessing" value="agree"> Я погоджуюсь з обробкою персональних данних
+            </label><br>
+            
+            <button type="reset"> Oчистити форму </button>
+
+            <button type="submit"> Відправити </button>
+
+            <button> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> Додотаково</a>  </button>
+        </fieldset>
+    </form>
+
+
+    
+</body>
+</html>
