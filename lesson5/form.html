@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/AntonHavrylchyk/lesson4/style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 </head> 
 <body>
     <header>
@@ -13,7 +13,7 @@
     </header>
 
 
-    <form action="URL" target="_blank">
+    <form action="URL" target="_blank" method="post">
        <fieldset>
          <legend > <h2>Форма для заповнення данних </h2> </legend>
 
@@ -46,7 +46,7 @@
              
             
             <label for="age"> Скільки ти уже нажив(ла/ло)?</label> 
-                <input type="text" id="age" name="age"><br>
+                <input type="number" id="age" name="age"><br>
 
             <label for="course"> Курс </label> 
                 <select id="course" name="cource">
@@ -64,7 +64,7 @@
                 <textarea id="aboutMyself" name="aboutMyself"> Хто ти воїн?</textarea><br>
 
             <label>
-                <input type="checkbox" name="dataProcessing" value="agree"> Я погоджуюсь з обробкою персональних данних
+                <input type="checkbox" name="dataProcessing" value="agree" required> Я погоджуюсь з обробкою персональних данних
             </label><br>
             
             <button type="reset"> Oчистити форму </button>
