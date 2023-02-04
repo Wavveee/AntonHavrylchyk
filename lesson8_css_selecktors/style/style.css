@@ -1,0 +1,123 @@
+body {
+    background-color: #3B3F45;
+}
+
+
+* {
+    transition: all .1s ease-in;
+}
+
+.dinnet_list {
+    font-family: "Roboto";
+    text-align: center;
+    border: 20px solid white;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.list_name {
+    height: 82px;
+    background-color: #4A4F56;
+    color: #FF8984;
+}
+
+.list_name h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    padding-top: 19px;
+
+}
+
+.list_name p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.wraper {
+    width: 534px;
+    margin: 0 auto;
+}
+
+.list_options {
+    background-color: #88839E;
+    margin: 20px auto 45px;
+}
+
+.input_info {
+    display: block;
+    height: 45px;
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.input_info:nth-child(even) {
+    background-color: #7A7593;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+.description::before {
+    content: "(";
+}
+
+.description::after {
+    content: ")";
+}
+
+.input_info:hover {
+    background-color: #625E77;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.input_info:active {
+    background-color: #d36d6a;
+}
+
+.input_check {
+    margin: 13px;
+}
+
+.input_check:checked ~ span {
+    color: #9B96AC;
+}
+
+.input_check:checked + span::after {
+    border-top: 2px solid #9B96AC;
+    position: absolute;
+    content: "";
+    right: 0;
+    top:43%;
+    left: 0;
+    width: 280px;
+    margin-left: 40px;
+}
+
+
+.submit_button {
+    background-color: #4A4F56;
+    color: #FF8984;
+    width: 534px;
+    height: 45px;
+    border: 0;
+}
+
+.submit_button:active {
+    background-color: #d36d6a;
+}
