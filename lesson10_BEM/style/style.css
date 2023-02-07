@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    background-color: rgb(221, 218, 218);
+    font-family: 'Lato';
+}
+
+.conteiner {
+    background-color: #F6F6F6;
+    width: 1440px;
+    margin: 50px auto;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 60px;
+    padding: 10px 135px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.header__logo {
+    width: 170px;
+    height: 60px;
+    float: left
+}
+
+.header__nav-list {
+    display: inline-block;
+    margin: 18px 206px;
+}
+
+.header__nav-list li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+
+.nav-list a:hover {
+    color: #18B5DC;
+}
+
+
+
+.header_callback {
+    float: right;
+    width: 130px;
+    height: 42px;
+    background-color: transparent;
+    margin: 9px 0;
+}
+
+.header_callback a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3C3C3C;
+}
+
+.header_callback:hover {
+    background-color: #18B5DC;
+    border: none;
+}
+
+.header_callback:hover a {
+    color: #FFFFFF;
+}
+
+.who-we-are__cotainer {
+    text-align: center;
+    margin: 150px 130px;
+}
+
+.who-we-are__heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #3C3C3C;
+    padding-bottom: 20px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 45px;
+    height: 4px;
+    background-color:#DDDBDB;
+    border: none;   
+}
+
+.who-we-are__heading__description {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+
+.who-we-are__member-photos {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.member-photos__motivator { 
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+.member-photos__developer {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.member-photos__artist {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.member-photos__graphic-designer {
+    display: inline-block;
+}
+
+.member-photos__hover-card{
+    position: relative;
+}
+
+.member-photos__hover-card--bacdround{
+    background-color:#18B5DC ;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.member-photos__hover-card--bacdround:hover{
+    opacity: 1;
+}
+
+.member-photos__hover-card--icons {
+    position: absolute;
+    top: 114px;
+    left:53px;
+}
+
+
+.who-we-are__member-photos__name {
+    color: #282528;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.who-we-are__member-photos p {
+    color: #646464;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer {
+    height: 180px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 38px 0;
+}
+
+.footer__nav-list li {
+    display: inline-block;
+    margin: 28px 15px;
+}
+
+.footer__social-list a {
+    text-decoration: none;
+}
+
+.footer__social-icon {
+    margin: 0 5px;
+}
+
+
