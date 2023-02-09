@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.wraper {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.heading {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.logo {
+    float: left;
+    padding-top: 15px;
+}
+
+.logo_name {
+    padding: 5px 12px 0;
+}
+
+.nav_bar {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.nav_bar_info {
+    display: inline-block;
+    padding: 26px 10px;
+}
+
+.nav_bar_info a {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+.nav_bar_info a:hover {
+    color: #FF9900;
+}
+
+.action {
+    padding-top: 17px;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+}
+
+
+.sign_in {
+    float: right;
+    border: 1px #bcd0e579 solid;
+    background: none;
+    margin-right: 32px;
+}
+
+
+.sign_in a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F281E;
+}
+
+.sign_up {
+    float: right;
+    background: #FF9900;
+    border: none;
+}
+
+.sign_up a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.design_thinking {
+    height: 495px;
+    margin-bottom: 99px;
+    text-align: left;
+}
+
+.design_thinking h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    padding-top: 97px;
+}
+
+.people_img {
+    width: 644px;
+    height: 495px;
+    float: right;
+}
+
+.design_thinking-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+.get_started-button {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    background: #FF9900;
+    border-radius: 4px;
+    border: none;
+}
+
+.get_started-button a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+.tests h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+
+.tools-list {
+    background-image: url(../asets/img/bg.png);
+    height: 390px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.tests_description {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 270px;
+    height: 175px;
+}
+
+.tests_description h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 30px 0 16px;
+}
+
+.tests_description p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sign-up-now_button {
+    border: none;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #FF9900;
+    width: 180px;
+    height: 50px;
+    display: block;
+    margin: 70px auto;
+}
+
+.sign-up-now_button a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 1px rgba(188, 208, 229, 0.496913) solid;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 1200px;
+    margin: 70px auto;
+}
+
+.footer__container__logo {
+    height: 32px;
+    width: 200px;
+}
+
+.footer__container__link-list {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.footer__container__link-list li{
+margin-bottom: 15px;
+}
+
+.footer__container__link-list li:nth-child(1){
+    margin-bottom: 30px;
+}
+
+.footer__container__link-list a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer__container__link-list a:hover {
+    color: #FF9900;
+}
+
+.footer__container__form {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    width: 340px;
+}
+
+.footer__container__form__phone-number::-webkit-outer-spin-button,
+.footer__container__form__phone-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.footer__container__form__phone-number{
+    margin: 25px 0;
+    font-size: 30px;
+    border: 1px #BCD0E5 solid;
+    border-radius: 4px;
+    width: 340px;
+    height: 50px;
+    display: border-box;
+}
+
+.footer__container__form__sign-up-now-button{
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    background: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
