@@ -1,0 +1,150 @@
+@import url(../asets/fonts/PT_Sans/PTSans.css);
+@import url(../asets/fonts/PT_Sans/PTSans-italic.css);
+@import url(../asets/fonts/Farro/Farro.css);
+@import url(../asets/fonts/Francois_One/Francois_One.css);
+@import url(../asets/fonts/Staatliches/Staatliches.css);
+@import url(../asets/fonts/Tourney/Tourney.css);
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 1200px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.title__links {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p {
+    font-family: "Tourney", sans-serif;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.title__nav-list a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.title__nav-list span {
+    color: #000000;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 10px;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-picture--container{
+    position: absolute;
+    right: 45%;
+}
+
+.bg-picture{
+    position: fixed;
+    top: 70px;
+    z-index: -1;
+}
+
+.sidebar__nav {
+    position: sticky;
+    top: 80px;
+}
+
+.sidebar__nav li{
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(224, 224, 224) solid;
+    margin-bottom: 70px;
+}
+
+.sidebar__nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+hr {
+    background-color: #000000;
+    border: none;
+    margin: 70px 0 20px;
+    width: 100px;
+    height: 8px;
+}
+
+.main-text {
+    width: 785px;
+}
+
+.main-text h2 {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-text h2 span {
+    font-family: 'Farro';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+.main-text p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.italic-text {
+    font-family: "PT Sans italic";
+    font-style: italic;
+}
+
+.background-text {
+    background-color: #e0e0e0;
+}
