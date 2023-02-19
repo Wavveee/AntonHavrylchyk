@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form action="URL" method="post" class="form">
+
+        <h1>Create an Account</h1>
+
+        <div class="container">
+            <label>
+                First Name
+                <input type="text" class="form__input-text border-settings">
+            </label>
+
+            <label>
+                Last Name
+                <input type="text" class="form__input-text border-settings">
+            </label>
+        </div>
+
+        <label>
+            E-mail
+            <input type="email" class="form__input-text email border-settings">
+            <span class="email-hint">We'll never share your email with anyone else.</span>
+        </label>
+
+        <label class="form__input-radio">
+            <input type="radio" name="sex" value="male" checked> Male
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="form__input-radio">
+            <input type="radio" name="sex" value="female"> Female
+            <span class="checkmark"></span>
+        </label>
+
+        <div class="container">
+            <label for="">
+                Country
+                <select class="select border-settings" name="country">
+                <option value disabled selected >Select</option>
+                </select>
+            </label>
+
+            <label>
+                City
+                <input type="text" class="form__input-text border-settings">
+            </label>
+        </div>
+
+        <button type="button" class="sign-up-button">
+            Sign Up
+        </button>
+
+        <p class="form__description">
+            By clicking the 'Sign Up' button, you confirm that you accept our <a href="#"> Terms of Use </a>
+            and <a href="#">Privacy Policy</a> .
+        </p>
+
+
+        <div class="form__log-In">
+            <p>Have an account? </p> <a href="">Log In</a> 
+        </div>
+    </form>
+
+</body>
+
+</html>
