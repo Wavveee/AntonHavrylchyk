@@ -1,0 +1,77 @@
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+.card-front {
+  width: 250px;
+  height: 350px;
+  outline: 1px black solid;
+  border-radius: 8px;
+}
+
+.flip-card {
+  margin: 20px auto;
+  width: 250px;
+  height: 350px;
+  perspective: 1000px;
+}
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card__inner-front, .flip-card__inner-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card__inner-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  outline: 2px black solid;
+  transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.container--top {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.container--center-attribute {
+  margin-right: 40px;
+  width: 80px;
+  height: 80px;
+}
+.container--center .rewerse {
+  margin-right: 0;
+  margin-left: 50px;
+  transform: rotateZ(180deg);
+}
+.container--bottom {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  transform: rotateZ(180deg);
+}
+
+.suit {
+  width: 30px;
+  height: 30px;
+}
+.suit--big {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */
