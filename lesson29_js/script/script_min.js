@@ -1,8 +1,18 @@
 "use strict";
 
-const userFirstName = prompt("Ваше ім'я ?", "");
+let userFirstName = prompt("Ваше ім'я ?", "");
 
-const userSecondName = prompt("Ваше прізвище ?", "");
+if (userFirstName == null || userFirstName == "") {
+
+    userFirstName = "Anonim"
+}
+
+let userSecondName = prompt("Ваше прізвище ?", "");
+
+if (userSecondName == null || userSecondName == "") {
+
+    userSecondName = ""
+}
 
 alert(`Вітаю ${userFirstName} ${userSecondName}`);
 
