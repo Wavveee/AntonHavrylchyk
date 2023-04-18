@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.alert {
+    position: relative;
+    top: 100px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: 2px black solid;
+
+    p {
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+    }
+
+}
+
+.buttonStyle {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+.moda_window--action {
+    visibility:hidden;
+}
