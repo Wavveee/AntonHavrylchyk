@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    width: 700px;
+    border: 4px black solid;
+
+}
+
+.textarea {
+    width: 550px;
+    height: 400px;
+}
+
+.container {
+    width: 550px;
+    padding: 25px;
+    text-align: center;
+    border-left: 2px #000 dashed;
+    border-right: 2px #000 dashed;
+    font-size: 25px;
+}

@@ -1,0 +1,15 @@
+.table {
+  margin: 0 auto;
+  font-size: 24px;
+  width: 300px;
+}
+.table th {
+  cursor: pointer;
+  background-color: rgb(121, 121, 121);
+}
+.table td {
+  background-color: rgb(211, 211, 211);
+}
+.table td:last-child {
+  text-align: center;
+}/*# sourceMappingURL=style_normal.css.map */
