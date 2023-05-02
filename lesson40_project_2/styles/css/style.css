@@ -7,7 +7,7 @@ body {
 
 body {
   background: #ffffff;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -110,7 +110,7 @@ address div:hover {
   background-repeat: no-repeat;
 }
 .latest-news_mySwiper .swiper-button-next::after {
-  content: "";
+  content: ".swiper-pagination-bullet";
 }
 .latest-news_mySwiper .swiper-button-prev {
   background-image: url(../../assets/icons/svg/Left.svg);
@@ -129,12 +129,44 @@ address div:hover {
 .latest-news_mySwiper .swiper-slide img {
   height: 240px;
 }
+.latest-news_mySwiper .swiper-slide h3 {
+  margin: 0 20px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #2C4058;
+}
+.latest-news_mySwiper .swiper-slide p {
+  margin: 0 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #2C4058;
+}
 .latest-news_mySwiper .swiper-slide div {
+  margin: 0 20px 30px;
   width: 100%;
 }
+.latest-news_mySwiper .swiper-slide div .name {
+  margin: 9px 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2C4058;
+}
+.latest-news_mySwiper .swiper-slide div .publication_date {
+  margin-left: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #55B7FF;
+}
 .latest-news_mySwiper .swiper-slide .autor_photo {
+  margin-left: 20px;
   width: 60px;
   height: 60px;
+  border-radius: 50%;
   float: left;
 }
 .latest-news_mySwiper .swiper-pagination-bullet {
@@ -161,7 +193,7 @@ address div:hover {
   position: relative;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(85, 184, 255, 0.7254901961), rgba(126, 90, 255, 0.6509803922));
+  background: linear-gradient(to right, rgba(85, 184, 255, 0.7254901961), rgba(126, 90, 255, 0.7803921569));
 }
 .header .navigation {
   width: 100%;

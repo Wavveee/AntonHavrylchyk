@@ -7,7 +7,7 @@ var swiperHeader = new Swiper(".header_mySwiper", {
   },
 
   autoplay: {
-    delay: 4400,
+    delay: 4000,
   },
 
   loop: true,
@@ -22,29 +22,30 @@ var swiperNews = new Swiper(".latest-news_mySwiper", {
   },
 
   // autoplay: {
-  //   delay: 4400,
+  //   delay: 4000,
   // },
 
   navigation: {
     nextEl: ".right-button",
     prevEl: ".left-button",
   },
-
-  loop: true,
+  
+  loop: true, 
+  centeredSlides: true, 
 
 });
 
 const emailInput = document.getElementById("email")
 const errorMassage = document.querySelector(".error-message")
 
-emailInput.onblur = function() {
-  if (!emailInput.value.includes('@')) { 
+emailInput.onblur = function () {
+  if (!emailInput.value.includes('@')) {
     emailInput.classList.add('invalid');
     errorMassage.classList.toggle('hide')
   }
 };
 
-emailInput.onfocus = function() {
+emailInput.onfocus = function () {
   if (this.classList.contains('invalid')) {
     this.classList.remove('invalid');
     errorMassage.classList.toggle('hide')

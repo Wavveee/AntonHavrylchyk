@@ -7,7 +7,7 @@ body {
 
 body {
     background: #ffffff;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -64,6 +64,7 @@ h2 {
 
 address {
     transition: 1s;
+
     div:hover {
         cursor: pointer;
         transition: 0.5s;
@@ -127,7 +128,7 @@ address {
             background-repeat: no-repeat;
 
             &::after {
-                content: "";
+                content: ".swiper-pagination-bullet";
             }
         }
 
@@ -151,13 +152,50 @@ address {
                 height: 240px;
             }
 
+            h3 {
+                margin: 0 20px;
+                font-weight: 700;
+                font-size: 22px;
+                color: #2C4058;
+            }
+
+            p {
+                margin: 0 20px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                color: #2C4058;
+            }
+
             div {
+                
+                margin: 0 20px 30px;
                 width: 100%;
+
+                .name {
+                    margin: 9px 100px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #2C4058;
+                }
+
+                .publication_date {
+                    margin-left: 100px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #55B7FF;
+                }
             }
 
             .autor_photo {
+                margin-left: 20px;
                 width: 60px;
                 height: 60px;
+                border-radius: 50%;
                 float: left;
             }
         }
@@ -192,7 +230,7 @@ address {
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #55b8ffb9, #7e5affa6);
+    background: linear-gradient(to right, #55b8ffb9, #7e5affc7);
 
     .navigation {
         width: 100%;
@@ -607,7 +645,7 @@ address {
         &_form {
             text-align: right;
 
-            P {  
+            P {
                 margin-top: 0;
                 font-weight: 600;
                 letter-spacing: 2px;
