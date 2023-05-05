@@ -56,7 +56,7 @@ function createlist (array) {
     let newEltment
     let list
 
-    for (song of array) {
+    for (let song of array) {
 
         newEltment = document.createElement("li");
         newEltment.innerHTML = `${song.author} --- ${song.song}`;
