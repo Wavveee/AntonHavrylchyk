@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: sans-serif;
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 5px 25px;
+  background-color: rgb(0, 153, 255);
+}
+
+h1 {
+  color: #FFFFFF;
+  font-style: italic;
+  letter-spacing: 10px;
+}
+
+.header__menu {
+  cursor: pointer;
+}
+
+.icon{
+  width: 40px;
+  fill: #FFFFFF;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1770px;
+
+}
+
+.info {
+  width: 790px;
+}
+
+.info__card-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+  gap: 30px;
+}
+
+.link-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 25px;
+  width: 380px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px;
+  cursor: pointer;
+}
+
+.link-card__img-size {
+  width: 150px;
+
+}
+
+.link-card__info-name {
+  text-align: end;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.link-card__info-value {
+  margin-top: 5px;
+  text-align: end;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.info__img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.main__baner {
+  box-shadow: 0px 0px 7px;
+  border-radius: 8px;
+}
+
+.main__baner__info {
+  padding: 20px;
+}
+
+.pendingOrders {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 7px;
+}
+
+.pendingOrders h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list-item {
+  display: flex;
+  cursor: pointer;
+}
+
+.list-item_photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.list-item__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.list-item__info span {
+  font-weight: 400;
+}
