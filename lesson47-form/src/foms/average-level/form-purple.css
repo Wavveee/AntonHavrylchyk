@@ -1,0 +1,90 @@
+.form-container {
+    margin: 0 auto;
+    padding: 60px;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.form-container h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+
+.form-container label {
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.row-item {
+    width: 45%;
+}
+
+.input-style {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.596) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    opacity: 0.5;
+    border-radius: 4px;
+    font-size: 20px;
+    height: 45px;
+    width: 100%;
+}
+
+.input-style:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.596) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.radio-btn {
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+
+input[type=radio] {
+    accent-color: green;
+    width: 20px;
+    height: 20px;
+}
+ 
+.select {
+    width: 100%;
+}
+
+.submit-btn { 
+    height: 50px;  
+    width: 180px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: rgb(32, 109, 209);
+    font-size: 25px;
+    color: #fafafa;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+}
+
+.submit-btn:active {
+    transform: scale(0.9);
+}

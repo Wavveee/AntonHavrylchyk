@@ -1,0 +1,86 @@
+.formContainer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    width: 600px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: rgb(12, 141, 0);
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 19px;
+    color: rgb(12, 141, 0);
+}
+
+.rowItem {
+    width: 45%;
+}
+
+.error {
+    font-size: 16px;
+    color: red;
+}
+
+
+.inputStyle {
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px rgb(12, 141, 0) solid;
+    font-size: 17px;
+}
+
+.inputStyle:focus {
+    outline: none;
+}
+
+
+.inputStyleMessage {
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px  rgb(12, 141, 0) solid;
+    font-size: 20px;
+}
+
+.inputStyleMessage:focus {
+    outline: none;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+
+
+.submitBtn {
+    cursor: pointer;
+    background: rgb(255, 72, 0);
+    color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.submitBtn:hover {
+    transform: scale(1.1);
+}
+
+.submitBtn:active {
+    transform: scale(0.9);
+}

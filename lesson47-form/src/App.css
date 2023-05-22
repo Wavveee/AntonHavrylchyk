@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.green-form {
+  background: linear-gradient(45deg, rgba(4,88,164,1) 0%, rgba(0,230,50,1) 85%);
+  
+}
+
+.blue-form {
+  background: linear-gradient(56deg, rgba(4,88,164,1) 0%, rgba(173,0,230,1) 100%);
+
+}
+
+.purple-form {
+  background: linear-gradient(56deg, rgba(255, 14, 134, 1) 0%, rgba(107, 4, 164, 1) 100%);
+}
+
